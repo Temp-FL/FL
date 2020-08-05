@@ -36,7 +36,7 @@ jobs:
     - name: Run a one-line script
       run: |
         ls;
-        echo "Start!"
+        echo "Start!";
         for p in (requirements.txt);
         do;
           echo "${p}";
