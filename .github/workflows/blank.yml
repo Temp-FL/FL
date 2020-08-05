@@ -34,7 +34,7 @@ jobs:
       run: |
         ls;
         echo "Start!";
-        for p in requirements.txt
+        for p in [-f requirements.txt]
         do
           echo "${p}"
         done
