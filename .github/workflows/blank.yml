@@ -34,9 +34,9 @@ jobs:
       run: |
         ls;
         echo "Start!";
-        for p in requirements.txt;
-        do;
-          echo "${p}";
+        for p in requirements.txt
+        do
+          echo "${p}"
         done.
 
     # Runs a set of commands using the runners shell
