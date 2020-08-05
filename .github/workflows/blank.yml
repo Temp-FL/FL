@@ -34,5 +34,5 @@ jobs:
       run: |
         echo Add other actions to build,
         echo test, and deploy your project.
-  env:
-    BRANCHES: {{ git branch }}
+env:
+  BRANCHES: "1"
